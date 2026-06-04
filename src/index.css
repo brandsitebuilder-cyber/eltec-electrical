@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0A0E0A;
+  --color-bg-card: #111611;
+  --color-bg-elevated: #181D18;
+  --color-accent: #94D500;
+  --color-accent-glow: rgba(148, 213, 0, 0.15);
+  --color-text: #E5E7E5;
+  --color-text-muted: #8A8F8A;
+  --color-border: rgba(148, 213, 0, 0.12);
+  --color-border-subtle: rgba(255, 255, 255, 0.06);
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Inter', system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--color-bg); color: var(--color-text); font-family: var(--font-sans); }
