@@ -49,8 +49,12 @@ function App() {
       </nav>
 
       {/* Hero */}
-      <section className="pt-32 pb-20 px-6 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-accent-glow via-transparent to-transparent opacity-30 pointer-events-none" />
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0">
+          <img src="/hero-bg.jpg" alt="" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-b from-bg/95 via-bg/80 to-bg" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-accent-glow via-transparent to-transparent opacity-20" />
+        </div>
         <div className="max-w-4xl mx-auto text-center relative">
           <div className="inline-flex items-center gap-2 bg-accent/10 border border-accent/20 rounded-full px-4 py-1.5 text-accent text-sm mb-8">
             <Clock className="w-4 h-4" />
