@@ -52,7 +52,7 @@ function App() {
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img src="/hero-bg.jpg" alt="" className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-b from-bg/95 via-bg/80 to-bg" />
+          <div className="absolute inset-0 bg-gradient-to-b from-bg/70 via-bg/55 to-bg/90" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-accent-glow via-transparent to-transparent opacity-20" />
         </div>
         <div className="max-w-4xl mx-auto text-center relative">
