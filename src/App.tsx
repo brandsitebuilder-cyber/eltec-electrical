@@ -17,12 +17,7 @@ function App() {
       <nav className="fixed top-0 w-full z-50 bg-bg/80 backdrop-blur-xl border-b border-border-subtle">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <a href="#" className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded bg-accent/10 flex items-center justify-center">
-              <Zap className="w-5 h-5 text-accent" />
-            </div>
-            <span className="font-bold text-lg tracking-tight">
-              Eltec<span className="text-accent">.</span>
-            </span>
+            <img src="/logo.png" alt="Eltec Electrical" className="h-9 w-auto" />
           </a>
           <div className="hidden md:flex items-center gap-8 text-sm text-text-muted">
             <a href="#services" className="hover:text-accent transition-colors">Services</a>
@@ -60,6 +55,9 @@ function App() {
           <div className="inline-flex items-center gap-2 bg-accent/10 border border-accent/20 rounded-full px-4 py-1.5 text-accent text-sm mb-8">
             <Clock className="w-4 h-4" />
             24/7 Emergency Electrical Services
+          </div>
+          <div className="mb-8">
+            <img src="/logo.png" alt="Eltec Electrical — Your Partner in Power" className="h-24 md:h-28 w-auto mx-auto" />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight mb-6">
             Powering Cape Town's
