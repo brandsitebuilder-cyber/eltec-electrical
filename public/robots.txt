@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://eltec-electrical.vercel.app/sitemap-index.xml
